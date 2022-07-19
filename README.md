@@ -1,23 +1,4 @@
-# Run Selenium Tests With RSpec On LambdaTest
 
-![Group 7552](https://user-images.githubusercontent.com/95698164/174256293-77d3c07c-0455-4671-bc07-4657ec3b03c7.png)
-
-<p align="center">
-  <a href="https://www.lambdatest.com/blog/?utm_source=github&utm_medium=repo&utm_campaign=RSpec-Selenium-Sample" target="_bank">Blog</a>
-  &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/support/docs/?utm_source=github&utm_medium=repo&utm_campaign=RSpec-Selenium-Sample" target="_bank">Docs</a>
-  &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/learning-hub/?utm_source=github&utm_medium=repo&utm_campaign=RSpec-Selenium-Sample" target="_bank">Learning Hub</a>
-  &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/newsletter/?utm_source=github&utm_medium=repo&utm_campaign=RSpec-Selenium-Sample" target="_bank">Newsletter</a>
-  &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/certifications/?utm_source=github&utm_medium=repo&utm_campaign=RSpec-Selenium-Sample" target="_bank">Certifications</a>
-  &nbsp; &#8901; &nbsp;
-  <a href="https://www.youtube.com/c/LambdaTest" target="_bank">YouTube</a>
-</p>
-&emsp;
-&emsp;
-&emsp;
 
 *Learn how to use RSpec framework to configure and run your Java automation testing scripts on the LambdaTest platform*
 
@@ -50,7 +31,7 @@ Before you can start performing Ruby automation testing with Selenium, you would
 
 ### Installing Selenium Dependencies and Tutorial Repo
 
-Clone the LambdaTest’s [RSpec-Selenium repository](https://github.com/LambdaTest/RSpec-Selenium-Sample) and navigate to the code directory as shown below:
+
 ```bash
 git clone https://github.com/LambdaTest/RSpec-Selenium-Sample.git
 cd RSpec-Selenium-Sample
@@ -72,7 +53,7 @@ Set LambdaTest Username and Access Key in environment variables.
 
 ### Sample Test with RSpec Ruby
 
-**Test Scenario:** The example mentioned in the [lambdatest.rb](https://github.com/LambdaTest/RSpec-Selenium-Sample/blob/master/scripts/lambdatest.rb) sample file would help you to execute your automation test using RSpec.
+**Test Scenario:** The example mentioned in the [lambdatest.rb](https://github.com/shub22396/LT-APP-AUTOAMTION-RSPEC-RUBY.git) sample file would help you to execute your automation test using RSpec.
 
 > You can generate capabilities for your test requirements with the help of our inbuilt **[Capabilities Generator tool](https://www.lambdatest.com/capabilities-generator/?utm_source=github&utm_medium=repo&utm_campaign=RSpec-Selenium-Sample)**.
 
@@ -101,30 +82,9 @@ You can test your locally hosted or privately hosted projects with [LambdaTest S
 
 Here’s how you can establish LambdaTest Tunnel.
 
->Download the binary file of:
-* [LambdaTest Tunnel for Windows](https://downloads.lambdatest.com/tunnel/v3/windows/64bit/LT_Windows.zip)
-* [LambdaTest Tunnel for Mac](https://downloads.lambdatest.com/tunnel/v3/mac/64bit/LT_Mac.zip)
-* [LambdaTest Tunnel for Linux](https://downloads.lambdatest.com/tunnel/v3/linux/64bit/LT_Linux.zip)
 
-Open command prompt and navigate to the binary folder.
 
-Run the following command:
-```bash
-LT -user {user’s login email} -key {user’s access key}
-```
-So if your user name is lambdatest@example.com and key is 123456, the command would be:
-```bash
-LT -user lambdatest@example.com -key 123456
-```
-Once you are able to connect **LambdaTest Tunnel** successfully, you would just have to pass on tunnel capabilities in the code shown below :
 
-**Tunnel Capability**
-```ruby
-caps = {             
-            ...          
-            :tunnel => true,         
-            ...
-        }  
 ```
 Use the below command for running a local test.
 ```bash
