@@ -26,7 +26,7 @@ Before you can start performing Ruby automation testing with Selenium, you would
   ```bash
   brew install ruby
   ```
-* To run tests in parallel you will require the [parallel_tests](https://github.com/grosser/parallel_tests) gem.
+
 * LambdaTest binary file for running tests on your locally hosted web pages.
 
 ### Installing Selenium Dependencies and Tutorial Repo
@@ -132,8 +132,7 @@ To stay updated with the latest features and product add-ons, visit [Changelog](
 * Geolocation testing of web and mobile apps across 53+ countries.
 * LT Browser - for responsive testing across 50+ pre-installed mobile, tablets, desktop, and laptop viewports
 
-    
-[<img height="58" width="200" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register)
+
 
 
 ## We are here to help you :headphones:
