@@ -1,0 +1,30 @@
+server: "mobile-hub.lambdatest.com"
+user: "shubhamr"
+key: ""
+
+common_caps:
+  "build": "RSpec Selenium"
+  "visual": false
+  "network": false
+  "console": false
+
+browser_caps:
+  -
+    "isRealMobile": "true"
+    "platform": "Android"
+    "deviceName": "Galaxy A31"
+    "platformVersion": "10"
+    "app": "lt://APP10160621161658231269038249"
+  -
+    "isRealMobile": "true"
+    "platform": "Android"
+    "deviceName": "Galaxy A32"
+    "platformVersion": "11"
+    "app": "lt://APP10160621161658231269038249"
+  -
+    "isRealMobile": "true"
+    "platform": "iOS"
+    "deviceName": "iPhone 13 Pro"
+    "platformVersion": "15.0"
+    "app": "lt://APP10160621161658239062752899"
+

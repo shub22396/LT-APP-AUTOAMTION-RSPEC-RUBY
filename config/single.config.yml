@@ -1,0 +1,18 @@
+server: "mobile-hub.lambdatest.com"
+user: "shubhamr"
+key: ""
+
+common_caps:
+  "build": "RSpec Selenium Demo"
+
+browser_caps:
+  -
+    "isRealMobile": "true"
+    "platform": "Android"
+    "deviceName": "Galaxy A31"
+    "platformVersion": "10"
+    "app": "lt://APP10160621161658231269038249"
+
+
+
+
